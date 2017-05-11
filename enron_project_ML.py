@@ -3,14 +3,8 @@ import pickle
 import os
 import numpy as np
 import pandas as pd
-
-
-
-sys.path.append("../final_project/")
-sys.path.append("../tools/")
-os.chdir('/Users/Alex/ud120-projects/tools')
-os.chdir('/Users/Alex/ud120-projects/final_project')
 import tester
+
 from sklearn.grid_search import GridSearchCV
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
